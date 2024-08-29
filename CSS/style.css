@@ -1,0 +1,1999 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.home{
+    width: 100%;
+    height: 120vh;
+    background: url(/Images/landing\ home.jpg) center no-repeat;
+    background-size: cover;
+    padding: 16px 120px;
+}
+
+/* PAGES */
+.projects{
+    position: relative;
+    width: 100%;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 16px 120px;
+}
+
+.page-image{
+    background: url(/Images/projects.png) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+.pages-square-box{
+    margin-top: 1rem;
+    border: 9px solid #D49E72;
+    width: 300px;
+    height: 200px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 4rem;
+    gap: 1rem;
+}
+
+.pages-square-box .content{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pages-square-box h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #EEEEEE;
+}
+
+.content h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+/* Overlay effect */
+
+.overlay-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.overlay-hide{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+} 
+.close-icon-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+}
+.close-icon-box i:hover{
+    color: black;
+}
+.modal{
+    width: 20%;
+    height: 80vh;
+    background-color: #ef9850a4;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.list-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.list-container p{
+    color: aliceblue;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.list-container p:hover{
+    color: black;
+    font-size: 1.3rem;
+}
+
+/* Header Area */
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact{
+    width: fit-content;
+    height: auto;
+}
+
+.contact h3{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.nav-link-menu{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 2rem;
+    
+}
+
+.nav-link{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+.nav-link .bi{
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+.menu .bi{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* Hero */
+.hero{
+    width: 40%;
+    height: auto;
+    margin-top: 3rem;
+    height: 65vh;
+    border: 35px solid #D49E72;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    min-width: 350px;
+}
+
+/* .square-box{
+    margin-top: 3rem;
+    width: 45%;
+    height: 60vh;
+    border-top: 25px solid #D49E72;
+    border-right: 25px solid #D49E72;
+    border-bottom: 25px solid #D49E72;
+    border-left: 25px solid #D49E72;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    min-width: 350px;
+} */
+
+.hero-brief{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.horizontal-line{
+    width: 20%;
+    border: 4px solid #D49E72;
+}
+
+.hero-brief h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.hero-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 180%;
+    height: auto;
+    color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 27%;
+}
+
+.hero-display h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+span {
+    width: fit-content;
+    height: auto;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 2s;
+  }
+
+span:hover{
+    color: aqua;
+    transform: translateX(-20px);
+}
+
+  /* @keyframes example {
+    0%   {left:400px; top:0px;}
+    25%  {left:0px; top:0px;}
+    50%  {left:0px;}
+    75%  {left:0px;}
+    100% {left:0px; top:0px;}
+  }
+
+@keyframes bob {
+    0%{
+        color: aliceblue;
+        left: 0px;
+    }
+    25%{
+        color: skyblue;
+        left: 50px;
+    }
+    50%{
+        color: rgb(49, 161, 205);    
+        left: 100px;
+    }
+    100%{
+        color: rgb(8, 101, 147);
+        left: 150px;
+    } 
+} */
+
+/* .slide-in{
+    animation: infinite;
+    animation-name: bob;
+    animation-delay: 2s;
+    animation-duration: 4s;
+
+} */
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    row-gap: 3rem;
+    background-color: azure;
+}
+
+/* page 1 */
+.welcome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 120px;
+}
+
+.left-content{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 50px;
+}
+
+.left-content h4{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.left-content h1{
+    color: #333333;
+    font-size: 38px;
+    line-height: 45px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.left-content .underline{
+    width: 70%;
+    border: 1.5px solid #D49E72;
+    margin-bottom: 1rem;
+}
+
+.underline{
+    width: 50%;
+    border: 1.5px solid #D49E72;
+    margin-bottom: 1rem;
+}
+
+.left-content p{
+    color: #333333;
+    font-size: 1rem;
+    text-align:justify;
+    margin-bottom: 1rem;
+}
+
+.left-content button{
+    padding: 1rem 1.5rem;
+    border: 2px solid #D49E72;
+    outline: none;
+}
+
+.right-content{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.first-image{
+    width: 50%;
+    height: 500px;
+    background: url("/Images/whitehouse.png") center no-repeat;
+    background-size: cover;
+    transition: 1s ease-in;
+}
+
+@keyframes bounce{
+    0%{opacity: 0;
+            width: 20%;
+            height: 10px;}
+    100%{opacity: 1;
+                width: 50%;
+                height: 500px;}
+}
+
+.welcome:hover .first-image, .welcome:hover .second-image{
+    animation: bounce 2s ease-in forwards;
+}
+
+.second-image{
+    width: 50%;
+    height: 500px;
+    background-image: url("/Images/project3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s ease-in;
+}
+
+/* page 2 */
+.our-projects{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    padding: 4rem 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.specialization{
+    width: 100%;
+    height: auto;
+    padding: 4rem 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+    border-bottom: 1px solid #6e6e6e;
+}
+
+.our-projects h4, .specialization h4, .team h4{
+    color:aliceblue;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.specialization h4, .team h4{
+    color: #333333;
+}
+
+.our-projects h1, .specialization h1, .team h1{
+    width: 28%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.specialization h1, .team h1{
+    color: #333333;
+}
+
+.box{
+    width: 30%;
+    border: 1.5px solid #D49E72;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.box h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.box .bi{
+    font-size: 2rem;
+    color: #D49E72;
+}
+
+.image-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 3rem 0;
+}
+
+.img1{
+    width: 22%;
+    height: 500px;
+    background-image: url("/Images/p1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+}
+
+.img2{
+    width: 22%;
+    height: 500px;
+    background-image: url("/Images/p2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+}
+
+.img3{
+    width: 22%;
+    height: 500px;
+    background-image: url("/Images/p3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+}
+
+.img4{
+    width: 22%;
+    height: 500px;
+    background-image: url("/Images/p4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+}
+
+@keyframes bounce2{
+    0%{opacity: 1;
+            width: 22%;
+            height: 50px;}
+    50%{
+            opacity: 0.8;
+            width: 22%;
+            height: 600px;
+    }
+    100%{opacity: 1;
+                width: 22%;
+                height: 500px;}
+}
+
+.our-projects:hover .pro-img{
+    animation: bounce2 2s ease-in forwards ;
+} 
+
+/* hover effect styles */
+.display-info{
+    width: 80%;
+    height: 80%;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #ef9850a4;
+    margin: 2.5rem auto;
+    padding: 2rem 1.5rem;
+    gap: 0.5rem;
+}
+
+.pro-img:hover .display-info{
+    display: flex;
+    transition: width 60% 2s ease-in-out ;
+    opacity: 0.5;
+}
+
+.plus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.display-info p{
+    width: 100%;
+    color: aliceblue;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.display-info h2{
+    width: 100%;
+    color: aliceblue;
+    line-height: 35px;
+}
+
+/* hover ends */
+
+.bottom-content{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.bottom-content .bi{
+    color: aliceblue;
+    font-size: 0.75rem;
+}
+.bottom-content .b2{
+    color: #333333;
+}
+
+.bottom-content h4{
+    font-size: 0.75rem;
+    font-weight: 400;
+    
+}
+
+
+
+
+/* page 3 */
+.current-project{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 4rem 120px;
+    position: relative;
+}
+
+.current-project button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    background-color: #D49E72;
+    color: aliceblue;
+    border: none;
+}
+
+.current-project .left-content{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 50px;
+    margin-top: 3rem;
+
+}
+
+.current-project .right-content{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.current-project .first-image{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Images/draw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-square-box{
+    width: 20%;
+    height: auto;
+    border-top: 5px solid #D49E72;
+    border-right: 5px solid #D49E72;
+    border-bottom: 5px solid #D49E72;
+    border-left: 5px solid #D49E72;
+    padding: 1rem 2.2rem 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+    gap: 1rem;
+}
+
+.small-square-box h1{
+    font-size: 75px;
+}
+
+.small-square-box h4{
+    width: 30%;
+}
+
+/* page 4 */
+.clients{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 120px;
+    background-color: #EEEEEE;
+    gap: 2rem;
+}
+
+.clients .left-content{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 50px;
+}
+
+.clients .right-content{
+    width: 60%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 120px;
+    padding: 12px;
+    text-align: center;
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    
+}
+
+#t1{
+    background-image: url("/partners/Stargaze/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
+}
+
+#t2{
+    background-image: url("/partners/Stargaze/Arch\ Linux\ -\ png\ 0.svg");
+}
+
+#t3{
+    background-image: url("/partners/Stargaze/image\ 3.png");
+}
+
+#t4{
+    background-image: url("/partners/Stargaze/image\ 4.png");
+}
+
+#t5{
+    background-image: url("/partners/Stargaze/Agrifuturo\ -\ png\ 0.svg");
+}
+
+#t6{
+    background-image: url("/partners/Stargaze/The\ Architecture\ Designs\ -\ png.png");
+}
+
+#t7{
+    background-image: url("/partners/Stargaze/image\ 2.png");
+}
+
+#t8{
+    background-image: url("/partners/Stargaze/image\ 6.png");
+}
+
+/* page 6 */
+.team{
+    width: 100%;
+    height: auto;
+    padding: 4rem 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.team h1{
+    width: 32%;
+}
+
+@media screen and (max-width:1024px){
+    .home{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .welcome, .our-projects, .specialization, .current-project, .clients, .team{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+.home{
+    width: 100%;
+    height: 80vh;
+    background: url(/Images/landing\ home.jpg) center no-repeat;
+    background-size: cover;
+    padding: 16px 4rem;
+}
+
+/* Header Area */
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact{
+    width: fit-content;
+    height: auto;
+    display: none;
+}
+
+
+.nav-link-menu{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+
+.nav-link{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1.5rem;
+    cursor: pointer;
+}
+.nav-link .bi{
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+.menu .bi{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* Hero */
+.hero{
+    width: 80%;
+    height: auto;
+    margin-top: auto 1rem;
+    border: 30px solid #D49E72;
+    position: relative;
+    padding: 4rem 2rem 18rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    min-width: 0;
+}
+
+/* .square-box{
+    margin-top: 3rem;
+    width: 45%;
+    height: 60vh;
+    border-top: 25px solid #D49E72;
+    border-right: 25px solid #D49E72;
+    border-bottom: 25px solid #D49E72;
+    border-left: 25px solid #D49E72;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    min-width: 350px;
+} */
+
+.hero-brief{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.horizontal-line{
+    width: 20%;
+    border: 4px solid #D49E72;
+}
+
+.hero-brief h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.hero-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 120%;
+    height: auto;
+    color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 27%;
+}
+
+.hero-display h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    row-gap: 3rem;
+}
+
+/* page 1 */
+.welcome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4rem 3rem;
+    column-gap: 2rem;
+}
+
+.left-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 0;
+    flex: 1.2;
+}
+
+.left-content h4{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.left-content h1{
+    color: #333333;
+    font-size: 30px;
+    line-height: 40px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.underline{
+    width: 70%;
+    border: 1.5px solid #D49E72;
+    margin-bottom: 0.5rem;
+}
+
+.left-content p{
+    color: #333333;
+    font-size: 1rem;
+    text-align:start;
+    margin-bottom: 1rem;
+}
+
+.left-content button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #D49E72;
+}
+
+.right-content{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0;
+    flex: 0.8;
+}
+
+.first-image{
+    width: 0%;
+    height: 400px;
+    background: url("/Images/whitehouse.png") center no-repeat;
+    background-size: cover;
+    transition: 1s ease-in;
+    display: none;
+}
+
+@keyframes bounce{
+    0%{opacity: 0;
+            width: 20%;
+            height: 50%;}
+    100%{opacity: 1;
+                width: 100%;
+                height: 100%;}
+}
+
+.welcome:hover .first-image, .welcome:hover .second-image{
+    animation: bounce 2s ease-in forwards;
+}
+
+.second-image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/Images/project3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s ease-in;
+}
+
+/* page 2 */
+.our-projects{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.specialization{
+    width: 100%;
+    height: auto;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+    border-bottom: 1px solid #6e6e6e;
+}
+
+.our-projects h4, .specialization h4, .team h4{
+    color:aliceblue;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.specialization h4, .team h4{
+    color: #333333;
+}
+
+.our-projects h1, .specialization h1, .team h1{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.specialization h1, .team h1{
+    color: #333333;
+}
+
+.box{
+    width: 30%;
+    border: 1.5px solid #D49E72;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.box h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.box .bi{
+    font-size: 2rem;
+    color: #D49E72;
+}
+
+.image-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.img1{
+    width: 45%;
+    height: 350px;
+    background-image: url("/Images/p1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 40%;
+}
+
+.img2{
+    width: 45%;
+    height: 350px;
+    background-image: url("/Images/p2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 40%;
+}
+
+.img3{
+    width: 45%;
+    height: 350px;
+    background-image: url("/Images/p3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 40%;
+}
+
+.img4{
+    width: 45%;
+    height: 350px;
+    background-image: url("/Images/p4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 40%;
+}
+
+@keyframes bounce2{
+    0%{opacity: 0;
+            width: 45%;
+            height: 50px;}
+    50%{
+            opacity: 0.5;
+            width: 45%;
+            height: 400px;
+    }
+    100%{opacity: 1;
+                width: 45%;
+                height: 350px;}
+}
+
+.our-projects:hover .pro-img{
+    animation: bounce2 2s ease-in forwards ;
+}
+
+/* hover effect styles */
+.display-info{
+    width: 80%;
+    height: 80%;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #ef9850a4;
+    margin: 2.5rem auto;
+    padding: 2rem 1.5rem;
+    gap: 0.5rem;
+}
+
+.pro-img:hover .display-info{
+    display: flex;
+    transition: width 60% 2s ease-in-out ;
+    opacity: 0.5;
+}
+
+.plus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.display-info p{
+    width: 100%;
+    color: aliceblue;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.display-info h2{
+    width: 100%;
+    color: aliceblue;
+    line-height: 35px;
+}
+
+/* hover ends */
+
+.bottom-content{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.bottom-content .bi{
+    color: aliceblue;
+    font-size: 0.75rem;
+}
+.bottom-content .b2{
+    color: #333333;
+}
+
+.bottom-content h4{
+    font-size: 0.75rem;
+    font-weight: 400;
+    
+}
+
+
+
+
+/* page 3 */
+.current-project{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 4rem 120px;
+    position: relative;
+}
+
+.current-project button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    background-color: #D49E72;
+    color: aliceblue;
+    border: none;
+}
+
+.current-project .left-content{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 50px;
+    margin-top: 3rem;
+
+}
+
+.current-project .right-content{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.current-project .first-image{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Images/draw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-square-box{
+    width: 20%;
+    height: auto;
+    border-top: 5px solid #D49E72;
+    border-right: 5px solid #D49E72;
+    border-bottom: 5px solid #D49E72;
+    border-left: 5px solid #D49E72;
+    padding: 1rem 2.2rem 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+    gap: 1rem;
+}
+
+.small-square-box h1{
+    font-size: 75px;
+}
+
+.small-square-box h4{
+    width: 30%;
+}
+
+/* page 4 */
+.clients{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 120px;
+    background-color: #EEEEEE;
+    gap: 2rem;
+}
+
+.clients .left-content{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 50px;
+}
+
+.clients .right-content{
+    width: 60%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 120px;
+    padding: 12px;
+    text-align: center;
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    
+}
+
+#t1{
+    background-image: url("/partners/Stargaze/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
+}
+
+#t2{
+    background-image: url("/partners/Stargaze/Arch\ Linux\ -\ png\ 0.svg");
+}
+
+#t3{
+    background-image: url("/partners/Stargaze/image\ 3.png");
+}
+
+#t4{
+    background-image: url("/partners/Stargaze/image\ 4.png");
+}
+
+#t5{
+    background-image: url("/partners/Stargaze/Agrifuturo\ -\ png\ 0.svg");
+}
+
+#t6{
+    background-image: url("/partners/Stargaze/The\ Architecture\ Designs\ -\ png.png");
+}
+
+#t7{
+    background-image: url("/partners/Stargaze/image\ 2.png");
+}
+
+#t8{
+    background-image: url("/partners/Stargaze/image\ 6.png");
+}
+
+/* page 6 */
+.team{
+    width: 100%;
+    height: auto;
+    padding: 4rem 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.team h1{
+    width: 32%;
+}
+}
+
+@media screen and (max-width:540px) {
+    .home{
+        width: 100%;
+        height: 55vh;
+        background: url(/Images/landing\ home.jpg) center no-repeat;
+        background-size: cover;
+        padding: 8px 2rem;
+    }
+    
+    /* Header Area */
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact{
+    display: none;
+    width: fit-content;
+    height: auto;
+}
+
+
+
+.nav-link-menu{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 2rem;
+    
+}
+
+.nav-link{
+    display: none; 
+}
+
+.menu .bi{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* Hero */
+.hero{
+    width: 100%;
+    height: 50%;
+    margin: 0.5rem 0;
+    border: 20px solid #D49E72;
+    position: static;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    min-width: 0;
+}
+
+/* .square-box{
+    margin-top: 1rem;
+    width: 50%;
+    height: 100%;
+    border-top: 20px solid #D49E72;
+    border-right: 20px solid #D49E72;
+    border-bottom: 20px solid #D49E72;
+    border-left: 20px solid #D49E72;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+} */
+
+.hero-brief{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.horizontal-line{
+    width: 15%;
+    border: 2px solid #D49E72;
+}
+
+.hero-brief h3{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.hero-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: fit-content;
+    height: auto;
+    color: aliceblue;
+    position: static;
+}
+
+.hero-display h1{
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+span {
+    width: fit-content;
+    height: auto;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 2s;
+  }
+
+span:hover{
+    color: aqua;
+    transform: translateX(-20px);
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    row-gap: 1rem;
+}
+
+/* page 1 */
+.welcome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 4rem 2rem;
+    row-gap: 1rem;
+}
+
+.left-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0;
+}
+
+
+.left-content h4{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.left-content h1{
+    color: #333333;
+    font-size: 30px;
+    line-height: 40px;
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+.underline{
+    width: 80%;
+    border: 1px solid #D49E72;
+    margin-bottom: 0.75rem;
+    text-align: start;
+}
+
+.left-content p{
+    color: #333333;
+    font-size: 1rem;
+    text-align:start;
+    margin-bottom: 1rem;
+}
+
+.left-content button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #D49E72;
+}
+
+.right-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.first-image{
+    width: 50%;
+    height: 400px;
+    background: url("/Images/whitehouse.png") center no-repeat;
+    background-size: cover;
+    transition: 1s ease-in;
+}
+
+.second-image{
+    width: 50%;
+    height: 400px;
+    background-image: url("/Images/project3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s ease-in;
+}
+
+/* page 2 */
+.our-projects{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.specialization{
+    width: 100%;
+    height: auto;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    border-bottom: 1px solid #6e6e6e;
+}
+
+.our-projects h4, .specialization h4, .team h4{
+    color:aliceblue;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-content{
+    width: 100%;
+}
+
+.specialization h4, .team h4{
+    color: #333333;
+}
+
+.our-projects h1, .specialization h1, .team h1{
+    width: 100%;
+    color: aliceblue;
+    text-align: start;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.specialization h1, .team h1{
+    color: #333333;
+}
+
+.box{
+    width: 100%;
+    border: 1.5px solid #D49E72;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.box p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.box h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.box .bi{
+    font-size: 2rem;
+    color: #D49E72;
+}
+
+.image-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+    margin: 1rem 0;
+}
+
+.img1{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Images/p1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+}
+
+.img2{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Images/p2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+}
+
+.img3{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Images/p3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+    display: none;
+}
+
+.img4{
+    width: 100%;
+    height: 350px;
+    background-image: url("/Images/p4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 150px;
+    display: none;
+}
+
+/* page 3 */
+.current-project{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 4rem 2rem;
+    position: relative;
+    row-gap: 1rem;
+}
+
+.current-project button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    background-color: #D49E72;
+    color: aliceblue;
+    border: none;
+}
+
+.current-project .left-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 0;
+    margin-top: 2rem;
+
+}
+
+.current-project .right-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.current-project .first-image{
+    width: 100%;
+    height: 500px;
+    background-image: url("/Images/draw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-square-box{
+    width: 40%;
+    height: auto;
+    border: 5px solid #D49E72;
+    padding: 1rem 2.5rem 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 73%;
+    left: 20%;
+    gap: 1rem;
+}
+
+.small-square-box h1{
+    font-size: 75px;
+}
+
+.small-square-box h4{
+    width: 100%;
+}
+
+/* page 4 */
+.clients{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 4rem 2rem;
+    background-color: #EEEEEE;
+    gap: 1rem;
+}
+
+.clients .left-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 0;
+}
+
+.clients .right-content{
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    text-align: center;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+}
+
+#t1{
+    background-image: url("/partners/Stargaze/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
+}
+
+#t2{
+    background-image: url("/partners/Stargaze/Arch\ Linux\ -\ png\ 0.svg");
+}
+
+#t3{
+    background-image: url("/partners/Stargaze/image\ 3.png");
+}
+
+#t4{
+    background-image: url("/partners/Stargaze/image\ 4.png");
+}
+
+#t5{
+    background-image: url("/partners/Stargaze/Agrifuturo\ -\ png\ 0.svg");
+}
+
+#t6{
+    background-image: url("/partners/Stargaze/The\ Architecture\ Designs\ -\ png.png");
+}
+
+#t7{
+    background-image: url("/partners/Stargaze/image\ 2.png");
+}
+
+#t8{
+    background-image: url("/partners/Stargaze/image\ 6.png");
+}
+
+/* page 6 */
+.team{
+    width: 100%;
+    height: auto;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.team h1{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:380px) {
+
+.hero-display h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+}
