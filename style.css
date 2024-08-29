@@ -10,7 +10,7 @@
 .home{
     width: 100%;
     height: 120vh;
-    background: url(/Images/landing\ home.jpg) center no-repeat;
+    background: url(/landing\ home.jpg) center no-repeat;
     background-size: cover;
     padding: 16px 120px;
 }
@@ -28,7 +28,7 @@
 }
 
 .page-image{
-    background: url(/Images/projects.png) center no-repeat;
+    background: url(/projects.png) center no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -407,7 +407,7 @@ span:hover{
 .first-image{
     width: 50%;
     height: 500px;
-    background: url("/Images/whitehouse.png") center no-repeat;
+    background: url("/whitehouse.png") center no-repeat;
     background-size: cover;
     transition: 1s ease-in;
 }
@@ -428,7 +428,7 @@ span:hover{
 .second-image{
     width: 50%;
     height: 500px;
-    background-image: url("/Images/project3.jpg");
+    background-image: url("/project3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -524,7 +524,7 @@ span:hover{
 .img1{
     width: 22%;
     height: 500px;
-    background-image: url("/Images/p1.png");
+    background-image: url("/p1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -534,7 +534,7 @@ span:hover{
 .img2{
     width: 22%;
     height: 500px;
-    background-image: url("/Images/p2.png");
+    background-image: url("/p2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,7 +544,7 @@ span:hover{
 .img3{
     width: 22%;
     height: 500px;
-    background-image: url("/Images/p3.jpg");
+    background-image: url("/p3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -554,7 +554,7 @@ span:hover{
 .img4{
     width: 22%;
     height: 500px;
-    background-image: url("/Images/p4.png");
+    background-image: url("/p4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -697,7 +697,7 @@ span:hover{
 .current-project .first-image{
     width: 100%;
     height: 500px;
-    background-image: url("/Images/draw.jpg");
+    background-image: url("/draw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -773,35 +773,35 @@ td {
 }
 
 #t1{
-    background-image: url("/partners/Stargaze/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
+    background-image: url("/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
 }
 
 #t2{
-    background-image: url("/partners/Stargaze/Arch\ Linux\ -\ png\ 0.svg");
+    background-image: url("/Arch\ Linux\ -\ png\ 0.svg");
 }
 
 #t3{
-    background-image: url("/partners/Stargaze/image\ 3.png");
+    background-image: url("/image\ 3.png");
 }
 
 #t4{
-    background-image: url("/partners/Stargaze/image\ 4.png");
+    background-image: url("/image\ 4.png");
 }
 
 #t5{
-    background-image: url("/partners/Stargaze/Agrifuturo\ -\ png\ 0.svg");
+    background-image: url("/Agrifuturo\ -\ png\ 0.svg");
 }
 
 #t6{
-    background-image: url("/partners/Stargaze/The\ Architecture\ Designs\ -\ png.png");
+    background-image: url("/The\ Architecture\ Designs\ -\ png.png");
 }
 
 #t7{
-    background-image: url("/partners/Stargaze/image\ 2.png");
+    background-image: url("/image\ 2.png");
 }
 
 #t8{
-    background-image: url("/partners/Stargaze/image\ 6.png");
+    background-image: url("/image\ 6.png");
 }
 
 /* page 6 */
@@ -836,7 +836,7 @@ td {
 .home{
     width: 100%;
     height: 80vh;
-    background: url(/Images/landing\ home.jpg) center no-repeat;
+    background: url(/landing\ home.jpg) center no-repeat;
     background-size: cover;
     padding: 16px 4rem;
 }
@@ -1043,7 +1043,7 @@ td {
 .first-image{
     width: 0%;
     height: 400px;
-    background: url("/Images/whitehouse.png") center no-repeat;
+    background: url("/whitehouse.png") center no-repeat;
     background-size: cover;
     transition: 1s ease-in;
     display: none;
@@ -1065,7 +1065,7 @@ td {
 .second-image{
     width: 100%;
     height: 100%;
-    background-image: url("/Images/project3.jpg");
+    background-image: url("/project3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1161,7 +1161,7 @@ td {
 .img1{
     width: 45%;
     height: 350px;
-    background-image: url("/Images/p1.png");
+    background-image: url("/p1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1171,7 +1171,7 @@ td {
 .img2{
     width: 45%;
     height: 350px;
-    background-image: url("/Images/p2.png");
+    background-image: url("/p2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1181,7 +1181,7 @@ td {
 .img3{
     width: 45%;
     height: 350px;
-    background-image: url("/Images/p3.jpg");
+    background-image: url("/p3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1191,7 +1191,7 @@ td {
 .img4{
     width: 45%;
     height: 350px;
-    background-image: url("/Images/p4.png");
+    background-image: url("/p4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1334,7 +1334,7 @@ td {
 .current-project .first-image{
     width: 100%;
     height: 500px;
-    background-image: url("/Images/draw.jpg");
+    background-image: url("/draw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1410,35 +1410,35 @@ td {
 }
 
 #t1{
-    background-image: url("/partners/Stargaze/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
+    background-image: url("/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
 }
 
 #t2{
-    background-image: url("/partners/Stargaze/Arch\ Linux\ -\ png\ 0.svg");
+    background-image: url("/Arch\ Linux\ -\ png\ 0.svg");
 }
 
 #t3{
-    background-image: url("/partners/Stargaze/image\ 3.png");
+    background-image: url("/image\ 3.png");
 }
 
 #t4{
-    background-image: url("/partners/Stargaze/image\ 4.png");
+    background-image: url("/image\ 4.png");
 }
 
 #t5{
-    background-image: url("/partners/Stargaze/Agrifuturo\ -\ png\ 0.svg");
+    background-image: url("/Agrifuturo\ -\ png\ 0.svg");
 }
 
 #t6{
-    background-image: url("/partners/Stargaze/The\ Architecture\ Designs\ -\ png.png");
+    background-image: url("/The\ Architecture\ Designs\ -\ png.png");
 }
 
 #t7{
-    background-image: url("/partners/Stargaze/image\ 2.png");
+    background-image: url("/image\ 2.png");
 }
 
 #t8{
-    background-image: url("/partners/Stargaze/image\ 6.png");
+    background-image: url("/image\ 6.png");
 }
 
 /* page 6 */
@@ -1462,7 +1462,7 @@ td {
     .home{
         width: 100%;
         height: 55vh;
-        background: url(/Images/landing\ home.jpg) center no-repeat;
+        background: url(/landing\ home.jpg) center no-repeat;
         background-size: cover;
         padding: 8px 2rem;
     }
@@ -1670,17 +1670,17 @@ span:hover{
 }
 
 .first-image{
-    width: 50%;
+    width: 46%;
     height: 400px;
-    background: url("/Images/whitehouse.png") center no-repeat;
+    background: url("/whitehouse.png") center no-repeat;
     background-size: cover;
     transition: 1s ease-in;
 }
 
 .second-image{
-    width: 50%;
+    width: 46%;
     height: 400px;
-    background-image: url("/Images/project3.jpg");
+    background-image: url("/project3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1782,7 +1782,7 @@ span:hover{
 .img1{
     width: 100%;
     height: 350px;
-    background-image: url("/Images/p1.png");
+    background-image: url("/p1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1792,7 +1792,7 @@ span:hover{
 .img2{
     width: 100%;
     height: 350px;
-    background-image: url("/Images/p2.png");
+    background-image: url("/p2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1802,7 +1802,7 @@ span:hover{
 .img3{
     width: 100%;
     height: 350px;
-    background-image: url("/Images/p3.jpg");
+    background-image: url("/p3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1813,7 +1813,7 @@ span:hover{
 .img4{
     width: 100%;
     height: 350px;
-    background-image: url("/Images/p4.png");
+    background-image: url("/p4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1940,35 +1940,35 @@ td {
 }
 
 #t1{
-    background-image: url("/partners/Stargaze/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
+    background-image: url("/Food\ and\ Agriculture\ Organization\ -\ png\ 0.svg");
 }
 
 #t2{
-    background-image: url("/partners/Stargaze/Arch\ Linux\ -\ png\ 0.svg");
+    background-image: url("/Arch\ Linux\ -\ png\ 0.svg");
 }
 
 #t3{
-    background-image: url("/partners/Stargaze/image\ 3.png");
+    background-image: url("/image\ 3.png");
 }
 
 #t4{
-    background-image: url("/partners/Stargaze/image\ 4.png");
+    background-image: url("/image\ 4.png");
 }
 
 #t5{
-    background-image: url("/partners/Stargaze/Agrifuturo\ -\ png\ 0.svg");
+    background-image: url("/Agrifuturo\ -\ png\ 0.svg");
 }
 
 #t6{
-    background-image: url("/partners/Stargaze/The\ Architecture\ Designs\ -\ png.png");
+    background-image: url("/The\ Architecture\ Designs\ -\ png.png");
 }
 
 #t7{
-    background-image: url("/partners/Stargaze/image\ 2.png");
+    background-image: url("/image\ 2.png");
 }
 
 #t8{
-    background-image: url("/partners/Stargaze/image\ 6.png");
+    background-image: url("/image\ 6.png");
 }
 
 /* page 6 */
